@@ -17,3 +17,5 @@
 #import <ZWPTouchKit/ZWPFirstResponderView.h>
 #import <ZWPTouchKit/ZWPShapeView.h>
 #import <ZWPTouchKit/ZWPTextView.h>
+#import <ZWPTouchKit/ZWPAlertView.h>
+#import <ZWPTouchKit/ZWPActionSheet.h>
