@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE087AFF1456273B00966537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6E6D6143128F5001AAA59 /* UIKit.framework */; };
+		EEC861AA17E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8618417E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861AB17E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8618517E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.m */; };
+		EEC861AC17E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8618617E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861AD17E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8618717E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.m */; };
+		EEC861AE17E1B96500A3510D /* UIColor+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8618817E1B96500A3510D /* UIColor+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861AF17E1B96500A3510D /* UIColor+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8618917E1B96500A3510D /* UIColor+ZWPTouchExtensions.m */; };
+		EEC861B017E1B96500A3510D /* UIDevice+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8618A17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861B117E1B96500A3510D /* UIDevice+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8618B17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.m */; };
+		EEC861B417E1B96500A3510D /* UIImage+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8618E17E1B96500A3510D /* UIImage+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861B517E1B96500A3510D /* UIImage+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8618F17E1B96500A3510D /* UIImage+ZWPTouchExtensions.m */; };
+		EEC861B617E1B96500A3510D /* UILabel+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619017E1B96500A3510D /* UILabel+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861B717E1B96500A3510D /* UILabel+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619117E1B96500A3510D /* UILabel+ZWPTouchExtensions.m */; };
+		EEC861B817E1B96500A3510D /* UIView+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619217E1B96500A3510D /* UIView+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861B917E1B96500A3510D /* UIView+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619317E1B96500A3510D /* UIView+ZWPTouchExtensions.m */; };
+		EEC861BA17E1B96500A3510D /* UIViewController+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619417E1B96500A3510D /* UIViewController+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861BB17E1B96500A3510D /* UIViewController+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619517E1B96500A3510D /* UIViewController+ZWPTouchExtensions.m */; };
+		EEC861BC17E1B96500A3510D /* UIWebView+ZWPTouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619617E1B96500A3510D /* UIWebView+ZWPTouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861BD17E1B96500A3510D /* UIWebView+ZWPTouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619717E1B96500A3510D /* UIWebView+ZWPTouchExtensions.m */; };
+		EEC861BE17E1B96500A3510D /* ZWApplicationStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619817E1B96500A3510D /* ZWApplicationStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861BF17E1B96500A3510D /* ZWApplicationStateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619917E1B96500A3510D /* ZWApplicationStateDelegate.m */; };
+		EEC861C017E1B96500A3510D /* ZWPFirstResponderView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619A17E1B96500A3510D /* ZWPFirstResponderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861C117E1B96500A3510D /* ZWPFirstResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619B17E1B96500A3510D /* ZWPFirstResponderView.m */; };
+		EEC861C217E1B96500A3510D /* ZWPGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619C17E1B96500A3510D /* ZWPGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861C317E1B96500A3510D /* ZWPGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619D17E1B96500A3510D /* ZWPGradientView.m */; };
+		EEC861C417E1B96500A3510D /* ZWKeyboardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC8619E17E1B96500A3510D /* ZWKeyboardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861C517E1B96500A3510D /* ZWKeyboardDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC8619F17E1B96500A3510D /* ZWKeyboardDelegate.m */; };
+		EEC861C617E1B96500A3510D /* ZWPShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC861A017E1B96500A3510D /* ZWPShapeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861C717E1B96500A3510D /* ZWPShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC861A117E1B96500A3510D /* ZWPShapeView.m */; };
+		EEC861C817E1B96500A3510D /* ZWPTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC861A217E1B96500A3510D /* ZWPTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC861C917E1B96500A3510D /* ZWPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC861A317E1B96500A3510D /* ZWPTextView.m */; };
+		EEC861CA17E1B96500A3510D /* ZWPTouchKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EEC861A417E1B96500A3510D /* ZWPTouchKit-Prefix.pch */; };
+		EEC861CB17E1B96500A3510D /* ZWPTouchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC861A517E1B96500A3510D /* ZWPTouchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE087AD0145626EB00966537 /* libZWPTouchKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZWPTouchKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC8618417E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8618517E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8618617E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8618717E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8618817E1B96500A3510D /* UIColor+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8618917E1B96500A3510D /* UIColor+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8618A17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8618B17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8618E17E1B96500A3510D /* UIImage+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8618F17E1B96500A3510D /* UIImage+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8619017E1B96500A3510D /* UILabel+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8619117E1B96500A3510D /* UILabel+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8619217E1B96500A3510D /* UIView+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8619317E1B96500A3510D /* UIView+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8619417E1B96500A3510D /* UIViewController+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8619517E1B96500A3510D /* UIViewController+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8619617E1B96500A3510D /* UIWebView+ZWPTouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ZWPTouchExtensions.h"; sourceTree = "<group>"; };
+		EEC8619717E1B96500A3510D /* UIWebView+ZWPTouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ZWPTouchExtensions.m"; sourceTree = "<group>"; };
+		EEC8619817E1B96500A3510D /* ZWApplicationStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWApplicationStateDelegate.h; sourceTree = "<group>"; };
+		EEC8619917E1B96500A3510D /* ZWApplicationStateDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWApplicationStateDelegate.m; sourceTree = "<group>"; };
+		EEC8619A17E1B96500A3510D /* ZWPFirstResponderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPFirstResponderView.h; sourceTree = "<group>"; };
+		EEC8619B17E1B96500A3510D /* ZWPFirstResponderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPFirstResponderView.m; sourceTree = "<group>"; };
+		EEC8619C17E1B96500A3510D /* ZWPGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPGradientView.h; sourceTree = "<group>"; };
+		EEC8619D17E1B96500A3510D /* ZWPGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPGradientView.m; sourceTree = "<group>"; };
+		EEC8619E17E1B96500A3510D /* ZWKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKeyboardDelegate.h; sourceTree = "<group>"; };
+		EEC8619F17E1B96500A3510D /* ZWKeyboardDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKeyboardDelegate.m; sourceTree = "<group>"; };
+		EEC861A017E1B96500A3510D /* ZWPShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPShapeView.h; sourceTree = "<group>"; };
+		EEC861A117E1B96500A3510D /* ZWPShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPShapeView.m; sourceTree = "<group>"; };
+		EEC861A217E1B96500A3510D /* ZWPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPTextView.h; sourceTree = "<group>"; };
+		EEC861A317E1B96500A3510D /* ZWPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPTextView.m; sourceTree = "<group>"; };
+		EEC861A417E1B96500A3510D /* ZWPTouchKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWPTouchKit-Prefix.pch"; sourceTree = "<group>"; };
+		EEC861A517E1B96500A3510D /* ZWPTouchKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPTouchKit.h; sourceTree = "<group>"; };
+		EEE6E6D6143128F5001AAA59 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE087ACD145626EB00966537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE087AFF1456273B00966537 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0D261C13D645E600947556 = {
+			isa = PBXGroup;
+			children = (
+				EEC8617F17E1B96500A3510D /* ZWPTouchKit */,
+				EE0D262913D645E600947556 /* Frameworks */,
+				EE0D262813D645E600947556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0D262813D645E600947556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE087AD0145626EB00966537 /* libZWPTouchKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0D262913D645E600947556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E6D6143128F5001AAA59 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC8617F17E1B96500A3510D /* ZWPTouchKit */ = {
+			isa = PBXGroup;
+			children = (
+				EEC861A417E1B96500A3510D /* ZWPTouchKit-Prefix.pch */,
+				EEC861A517E1B96500A3510D /* ZWPTouchKit.h */,
+				EEC861CE17E1B98400A3510D /* Utilities */,
+				EEC861CD17E1B97E00A3510D /* Views */,
+				EEC861CC17E1B96C00A3510D /* Extensions */,
+			);
+			path = ZWPTouchKit;
+			sourceTree = "<group>";
+		};
+		EEC861CC17E1B96C00A3510D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8618417E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.h */,
+				EEC8618517E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.m */,
+				EEC8618617E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.h */,
+				EEC8618717E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.m */,
+				EEC8618817E1B96500A3510D /* UIColor+ZWPTouchExtensions.h */,
+				EEC8618917E1B96500A3510D /* UIColor+ZWPTouchExtensions.m */,
+				EEC8618A17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.h */,
+				EEC8618B17E1B96500A3510D /* UIDevice+ZWPTouchExtensions.m */,
+				EEC8618E17E1B96500A3510D /* UIImage+ZWPTouchExtensions.h */,
+				EEC8618F17E1B96500A3510D /* UIImage+ZWPTouchExtensions.m */,
+				EEC8619017E1B96500A3510D /* UILabel+ZWPTouchExtensions.h */,
+				EEC8619117E1B96500A3510D /* UILabel+ZWPTouchExtensions.m */,
+				EEC8619217E1B96500A3510D /* UIView+ZWPTouchExtensions.h */,
+				EEC8619317E1B96500A3510D /* UIView+ZWPTouchExtensions.m */,
+				EEC8619417E1B96500A3510D /* UIViewController+ZWPTouchExtensions.h */,
+				EEC8619517E1B96500A3510D /* UIViewController+ZWPTouchExtensions.m */,
+				EEC8619617E1B96500A3510D /* UIWebView+ZWPTouchExtensions.h */,
+				EEC8619717E1B96500A3510D /* UIWebView+ZWPTouchExtensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EEC861CD17E1B97E00A3510D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8619A17E1B96500A3510D /* ZWPFirstResponderView.h */,
+				EEC8619B17E1B96500A3510D /* ZWPFirstResponderView.m */,
+				EEC8619C17E1B96500A3510D /* ZWPGradientView.h */,
+				EEC8619D17E1B96500A3510D /* ZWPGradientView.m */,
+				EEC861A017E1B96500A3510D /* ZWPShapeView.h */,
+				EEC861A117E1B96500A3510D /* ZWPShapeView.m */,
+				EEC861A217E1B96500A3510D /* ZWPTextView.h */,
+				EEC861A317E1B96500A3510D /* ZWPTextView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EEC861CE17E1B98400A3510D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8619817E1B96500A3510D /* ZWApplicationStateDelegate.h */,
+				EEC8619917E1B96500A3510D /* ZWApplicationStateDelegate.m */,
+				EEC8619E17E1B96500A3510D /* ZWKeyboardDelegate.h */,
+				EEC8619F17E1B96500A3510D /* ZWKeyboardDelegate.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE087ACE145626EB00966537 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC861BA17E1B96500A3510D /* UIViewController+ZWPTouchExtensions.h in Headers */,
+				EEC861B817E1B96500A3510D /* UIView+ZWPTouchExtensions.h in Headers */,
+				EEC861B017E1B96500A3510D /* UIDevice+ZWPTouchExtensions.h in Headers */,
+				EEC861B417E1B96500A3510D /* UIImage+ZWPTouchExtensions.h in Headers */,
+				EEC861B617E1B96500A3510D /* UILabel+ZWPTouchExtensions.h in Headers */,
+				EEC861C417E1B96500A3510D /* ZWKeyboardDelegate.h in Headers */,
+				EEC861AE17E1B96500A3510D /* UIColor+ZWPTouchExtensions.h in Headers */,
+				EEC861AA17E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.h in Headers */,
+				EEC861C617E1B96500A3510D /* ZWPShapeView.h in Headers */,
+				EEC861C017E1B96500A3510D /* ZWPFirstResponderView.h in Headers */,
+				EEC861C217E1B96500A3510D /* ZWPGradientView.h in Headers */,
+				EEC861BC17E1B96500A3510D /* UIWebView+ZWPTouchExtensions.h in Headers */,
+				EEC861CB17E1B96500A3510D /* ZWPTouchKit.h in Headers */,
+				EEC861CA17E1B96500A3510D /* ZWPTouchKit-Prefix.pch in Headers */,
+				EEC861AC17E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.h in Headers */,
+				EEC861C817E1B96500A3510D /* ZWPTextView.h in Headers */,
+				EEC861BE17E1B96500A3510D /* ZWApplicationStateDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE087ACF145626EB00966537 /* ZWPTouchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE087AD8145626EB00966537 /* Build configuration list for PBXNativeTarget "ZWPTouchKit" */;
+			buildPhases = (
+				EE087ACC145626EB00966537 /* Sources */,
+				EE087ACD145626EB00966537 /* Frameworks */,
+				EE087ACE145626EB00966537 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPTouchKit;
+			productName = ZWPTouchKit;
+			productReference = EE087AD0145626EB00966537 /* libZWPTouchKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0D261E13D645E600947556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = EE0D262113D645E600947556 /* Build configuration list for PBXProject "ZWPTouchKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE0D261C13D645E600947556;
+			productRefGroup = EE0D262813D645E600947556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE087ACF145626EB00966537 /* ZWPTouchKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE087ACC145626EB00966537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC861BB17E1B96500A3510D /* UIViewController+ZWPTouchExtensions.m in Sources */,
+				EEC861AD17E1B96500A3510D /* UIBarButtonItem+ZWPTouchExtensions.m in Sources */,
+				EEC861AF17E1B96500A3510D /* UIColor+ZWPTouchExtensions.m in Sources */,
+				EEC861B117E1B96500A3510D /* UIDevice+ZWPTouchExtensions.m in Sources */,
+				EEC861C317E1B96500A3510D /* ZWPGradientView.m in Sources */,
+				EEC861BF17E1B96500A3510D /* ZWApplicationStateDelegate.m in Sources */,
+				EEC861B917E1B96500A3510D /* UIView+ZWPTouchExtensions.m in Sources */,
+				EEC861AB17E1B96500A3510D /* NSIndexPath+ZWPTouchExtensions.m in Sources */,
+				EEC861B717E1B96500A3510D /* UILabel+ZWPTouchExtensions.m in Sources */,
+				EEC861C517E1B96500A3510D /* ZWKeyboardDelegate.m in Sources */,
+				EEC861C917E1B96500A3510D /* ZWPTextView.m in Sources */,
+				EEC861C717E1B96500A3510D /* ZWPShapeView.m in Sources */,
+				EEC861C117E1B96500A3510D /* ZWPFirstResponderView.m in Sources */,
+				EEC861B517E1B96500A3510D /* UIImage+ZWPTouchExtensions.m in Sources */,
+				EEC861BD17E1B96500A3510D /* UIWebView+ZWPTouchExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE087AD9145626EB00966537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWPTouchKit/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWPTouchKit/;
+			};
+			name = Debug;
+		};
+		EE087ADA145626EB00966537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWPTouchKit/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWPTouchKit/;
+			};
+			name = Release;
+		};
+		EE0D263213D645E600947556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchKit/ZWPTouchKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=0",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE0D263313D645E600947556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchKit/ZWPTouchKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"DEBUG=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE087AD8145626EB00966537 /* Build configuration list for PBXNativeTarget "ZWPTouchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE087AD9145626EB00966537 /* Debug */,
+				EE087ADA145626EB00966537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0D262113D645E600947556 /* Build configuration list for PBXProject "ZWPTouchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0D263213D645E600947556 /* Debug */,
+				EE0D263313D645E600947556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0D261E13D645E600947556 /* Project object */;
+}
