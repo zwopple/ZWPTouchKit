@@ -42,7 +42,7 @@
 	size.width *= originalScale;
 	size.height *= originalScale;
 	
-	CGAffineTransform transform = CGAffineTransformIdentity;
+	CGAffineTransform transform = CGAffineTransformMake(1, 0, 0, -1, 0, size.height);
 	switch(self.imageOrientation) {
 		case UIImageOrientationUp:
 			if(size.width == 0 && size.height == 0) {
@@ -234,6 +234,7 @@
 											 colorSpace,
 											 bitmapInfo);
 	CGColorSpaceRelease(colorSpace);
+    CGContextConcatCTM(ctx, CGAffineTransformMake(1, 0, 0, -1, 0, size.height));
 	CGContextClearRect(ctx, CGRectMake(0, 0, size.width, size.height));
 	CGContextSetInterpolationQuality(ctx, kCGInterpolationHigh);
 	CGContextDrawImage(ctx, rect, cgImage);
